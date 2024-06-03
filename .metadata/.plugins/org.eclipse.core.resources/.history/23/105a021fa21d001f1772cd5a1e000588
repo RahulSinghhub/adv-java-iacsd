@@ -1,0 +1,10 @@
+package com.blogs.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController//=> @ controller at class level + @Response body implicitly added on return types
+//of req handling mthds @ requestMapping  @ getMapping 
+//@PostMapping
+public class CategoryController {
+
+}

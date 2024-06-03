@@ -1,0 +1,16 @@
+package com.app.entities;
+
+import java.time.LocalDateTime;
+
+import javax.persistence.Entity;
+
+@Entity
+
+public class Appointment {
+	private Long doctorId;
+	private Long patientId;
+	private LocalDateTime timeAndDate;
+	private String description;
+	
+
+}

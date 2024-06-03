@@ -1,0 +1,13 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class UserHomeController {
+	public UserHomeController() {
+		
+		System.out.println("in construct of "+getClass());
+		
+	}
+
+}

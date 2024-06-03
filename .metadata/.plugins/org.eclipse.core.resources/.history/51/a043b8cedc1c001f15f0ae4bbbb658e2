@@ -1,0 +1,17 @@
+package com.blogs.service;
+
+import org.springframework.stereotype.Service;
+
+import com.blogs.entities.User;
+
+@Service //mandatory class level annotation to tell sc
+//following 
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public User signInUser(String email, String pwd) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

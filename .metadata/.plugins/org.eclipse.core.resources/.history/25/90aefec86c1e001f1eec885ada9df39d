@@ -1,0 +1,21 @@
+package com.blogs.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.blogs.repository.CommentRepository;
+import com.blogs.repository.UserRepository;
+
+public class CommentServiceImpl implements CommentService {
+
+		@Autowired
+		private  CommentRepository commentRepository;
+		@Autowired
+		private  ModelMapper modelMapper;
+		@Autowired
+		private  UserRepository userRepository;
+		
+		
+		return null;
+	}
+
+}

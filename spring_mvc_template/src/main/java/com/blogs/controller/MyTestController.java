@@ -1,0 +1,38 @@
+package com.blogs.controller;
+
+import java.time.LocalDateTime;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+//base pattern of the incoming url pattern at the class level ---optional but recommentded
+//can be supplied at the class level
+@RequestMapping("/test")//can intercept any request get post put delete patch
+public class MyTestController {
+    public MyTestController() {
+    	System.out.println("in constructor of"+getClass());
+    }
+    //add req handlinf to displat server side at run time
+    @GetMapping("/test2")//same to same as requestmapping method = get
+    public ModelAndView renderDynResult() {
+    	System.out.println("in render dyn result");
+
+    	/*
+    	 * o.s.o.w modelandview class that holds lvn + result
+    	 * results are represented by moder attributes
+    	 * value pair 
+    	 * constructor 
+    	 * model and view string lvn
+    	 * string modelattributename object model
+    	 * 
+    	 * 
+    	 * handler returns modeland view object to dispatcher servlet (lvn) to view resolver gives actual view name
+    	 * webinf/views/test/display.jsp
+    	 * d.s forwards the client to jsp
+    	 */
+		return new ModelAndView("/test/display","server_ts",LocalDateTime.now());
+    }
+}

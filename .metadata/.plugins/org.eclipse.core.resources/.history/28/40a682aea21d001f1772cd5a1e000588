@@ -1,0 +1,17 @@
+package com.blogs.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+//=> @ controller at class level + @Response body implicitly added on return types
+//of req handling mthds @ requestMapping  @ getMapping 
+//@PostMapping
+@RestController
+@RequestMapping("/categories")
+public class CategoryController {
+	public CategoryController() {
+		System.out.println("in ctr of " + getClass());
+	}
+	
+
+}

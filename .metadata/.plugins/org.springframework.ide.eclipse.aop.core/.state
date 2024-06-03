@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="10.3"/>
+<aop-project name="10.4"/>
+<aop-project name="day10.1"/>
+<aop-project name="day10.2"/>
+<aop-project name="spring_boot_template_mvc"/>
+<aop-project name="spring_mvc_template"/>
+<aop-project name="day12_lab_problem"/>
+<aop-project name="day14_lab"/>
+<aop-project name="day14_REST_Advanced"/>
+<aop-project name="spring_boot_backend_template"/>
+<aop-project name="healthcare"/>
+</aop-reference-model>

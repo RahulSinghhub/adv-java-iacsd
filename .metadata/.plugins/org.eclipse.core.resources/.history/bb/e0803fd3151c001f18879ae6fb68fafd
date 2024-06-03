@@ -1,0 +1,14 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+	public HomeController() {
+		System.out.println("in ");
+	}
+	@PostConstruct
+	public void init() {
+		System.out.println("start the constructor ");
+	}
+}

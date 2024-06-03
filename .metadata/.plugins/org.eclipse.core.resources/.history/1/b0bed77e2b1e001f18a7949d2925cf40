@@ -1,0 +1,21 @@
+package com.app.service;
+
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Service;
+
+import com.app.entities.Patients;
+import com.app.repository.PatientRepository;
+
+@Service
+@Transactional
+public class PatientsServiceImpl implements PatientService {
+    private PatientRepository patientRepository;
+	@Override
+	public Patients registerPatient(Patients info) {
+		// TODO Auto-generated method stub
+		return patientRepository.save(info);
+		
+	}
+
+}

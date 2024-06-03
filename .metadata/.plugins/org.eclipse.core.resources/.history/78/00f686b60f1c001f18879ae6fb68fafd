@@ -1,0 +1,21 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller //mandatory class level controller to tell sc , 
+//following is req handling spring bean
+//singleton and eager
+public class TestController {
+	public TestController() {
+		System.out.println("in constructor of " + getClass());
+		
+	}
+	//add init method
+	public void myInit() {
+		System.out.println("in init of "+ getClass());
+	}
+	//add request handling mthod to frd the clnt to view layer to  display  the welcome msg
+	@RequestMapping("/test1")
+
+}

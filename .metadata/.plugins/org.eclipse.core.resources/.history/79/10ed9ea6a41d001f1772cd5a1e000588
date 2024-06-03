@@ -1,0 +1,26 @@
+
+package com.blogs.service;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.blogs.entities.Category;
+import com.blogs.repository.CategoryRepository;
+
+
+
+@Service
+@Transactional
+public interface CategoryServiceImpl implements CategoryService {
+   @Autowired
+   private CategoryRepository categoryRepository;
+   
+   public List<Category> getAllCategories(){
+	   return categoryRepository.findAll();
+   }
+   
+}

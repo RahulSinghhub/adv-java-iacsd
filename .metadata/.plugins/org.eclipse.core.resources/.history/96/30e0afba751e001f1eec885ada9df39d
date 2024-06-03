@@ -1,0 +1,11 @@
+package com.blogs.dto;
+
+
+public class UserRespDto {
+	private String firstName;
+	private String lastName;
+	private LocalDate dob;
+	
+	private String phoneNo;
+
+}

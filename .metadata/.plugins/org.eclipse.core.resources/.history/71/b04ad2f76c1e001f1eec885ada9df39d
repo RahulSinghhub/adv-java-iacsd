@@ -1,0 +1,32 @@
+package com.blogs.service;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.blogs.dto.ApiResponse;
+import com.blogs.dto.CommentDto;
+import com.blogs.repository.CommentRepository;
+import com.blogs.repository.UserRepository;
+
+public class CommentServiceImpl implements CommentService {
+
+		@Autowired
+		private  CommentRepository commentRepository;
+		@Autowired
+		private  ModelMapper modelMapper;
+		@Autowired
+		private  UserRepository userRepository;
+		
+		
+		@Override
+		public ApiResponse addNewComment(CommentDto comment) {
+			// TODO Auto-generated method stub
+			
+			return null;
+		}
+		
+		
+		
+	}
+
+}

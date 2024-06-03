@@ -1,0 +1,7 @@
+package com.blogs.service;
+
+import com.blogs.entities.Comment;
+
+public interface CommentService {
+	Comment addNewComment(Comment comment);
+}

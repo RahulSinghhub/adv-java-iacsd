@@ -1,0 +1,18 @@
+package com.app.dao;
+
+import org.hibernate.SessionFactory;
+import com.app.utils.HibernateUtils.*;
+
+import com.app.entities.Categaries;
+
+public class CategoryDaoImpl implements CategoryDao {
+
+	@Override
+	public Categaries register(Long id, String desc, String name) {
+		// TODO Auto-generated method stub
+		SessionFactory session = getFactory().getCurrentSession();
+		
+		return null;
+	}
+
+}

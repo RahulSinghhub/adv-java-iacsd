@@ -1,0 +1,13 @@
+package com.blogs.service;
+
+import com.blogs.entities.Comment;
+
+public class CommentServiceImpl implements CommentService {
+
+	@Override
+	public Comment addNewComment(Comment comment) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

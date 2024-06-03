@@ -1,0 +1,13 @@
+package com.app.service;
+
+import com.app.entities.Patients;
+
+public class PatientsServiceImpl implements PatientService {
+
+	@Override
+	public Patients registerPatient(Patients info) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

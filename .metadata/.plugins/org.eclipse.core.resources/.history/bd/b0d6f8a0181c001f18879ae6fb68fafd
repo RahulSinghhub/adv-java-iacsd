@@ -1,0 +1,14 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+//base pattern of the incoming url pattern at the class level ---optional but recommentded
+//can be supplied at the class level
+@RequestMapping("/test")
+public class MyTestController {
+    public MyTestController() {
+    	System.out.println("in constructor of"+getClass());
+    }
+}

@@ -1,0 +1,10 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller //mandatory class level controller to tell sc , 
+//following is req handling spring bean
+//singleton and eager
+public class TestController {
+
+}

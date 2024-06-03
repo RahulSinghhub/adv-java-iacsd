@@ -1,0 +1,20 @@
+
+May 19, 2024 10:06:34.530 NEW SESSION
+May 19, 2024 10:06:34.530 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 27, 2024 15:44:20.143 NEW SESSION
+May 27, 2024 15:44:20.144 [11428:5116:0527/154420.142:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 15:44:20.507 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 27, 2024 15:44:49.750 [11428:5116:0527/154449.750:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 15:45:33.937 [11428:5116:0527/154533.936:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 15:47:26.408 [11428:5116:0527/154726.408:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 15:50:48.520 [11428:5116:0527/155048.519:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 15:58:16.436 [11428:5116:0527/155816.434:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 16:08:16.444 [11428:5116:0527/160816.444:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 16:18:16.459 [11428:5116:0527/161816.459:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 16:28:16.480 [11428:5116:0527/162816.479:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 16:33:21.950 [11428:4560:0527/163321.949:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+May 27, 2024 16:38:16.505 [11428:5116:0527/163816.504:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 16:48:16.519 [11428:5116:0527/164816.518:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 16:58:16.533 [11428:5116:0527/165816.532:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 17:08:16.542 [11428:5116:0527/170816.542:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105

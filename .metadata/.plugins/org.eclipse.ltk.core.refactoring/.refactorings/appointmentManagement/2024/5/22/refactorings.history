@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.app.entities&apos; to &apos;healthcare/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;appointmentManagement&apos;&#x0D;&#x0A;- Destination element: &apos;healthcare/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;appointmentManagement/src/main/java/com.app.entities&apos;" description="Copy package" destination="=healthcare/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java&lt;com.app.entities" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1717032274022" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+INDEX VERSION 1.4+D:\java\assignmentweb\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3610867797.index
+79309265.index
+3794492732.index
+4242493914.index
+543198839.index
+623876338.index
+3600548502.index
+3768010814.index
+564323392.index
+2030388816.index
+572928046.index
+3428492961.index
+4084461926.index
+3185877887.index
+1669883702.index
+2645764006.index
+4222784963.index

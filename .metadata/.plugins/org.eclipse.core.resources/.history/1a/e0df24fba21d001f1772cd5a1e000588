@@ -1,0 +1,10 @@
+package com.blogs.service;
+
+import com.blogs.entities.Category;
+
+import antlr.collections.List;
+
+public class CategoryServiceImpl {
+	List<Category> getAllCategories()
+
+}

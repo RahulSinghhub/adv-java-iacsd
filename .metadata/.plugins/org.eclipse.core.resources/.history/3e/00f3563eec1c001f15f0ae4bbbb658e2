@@ -1,0 +1,9 @@
+package com.blogs.controller;
+
+public class BloggerController {
+	public BloggerController() {
+		System.out.println("in ctr of"+getClass());
+	}
+	
+
+}

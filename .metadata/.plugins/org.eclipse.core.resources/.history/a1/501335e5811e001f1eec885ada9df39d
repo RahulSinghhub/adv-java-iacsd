@@ -1,0 +1,21 @@
+package com.blogs.service;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+//annotation for the spring boot to enable all spring bean  controller service dao db
+
+class CategoryServiceTest {
+	@Autowired
+	private CategoryService categoryService;
+	
+	@Test
+	void test() {
+		assertNotNull(categoryService);
+	}
+
+}

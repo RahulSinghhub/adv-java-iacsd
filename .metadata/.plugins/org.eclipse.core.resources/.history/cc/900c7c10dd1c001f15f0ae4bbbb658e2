@@ -1,0 +1,19 @@
+package com.blogs.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.blogs.entities.User;
+
+@Service //mandatory class level annotation to tell sc
+//following is spring bean containing 
+@Transactional
+public class UserServiceImpl implements UserService{
+    
+	@Override
+	public User signInUser(String email, String pwd) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

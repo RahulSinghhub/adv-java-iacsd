@@ -1,0 +1,5 @@
+package com.blogs.custom_exceptions;
+
+public class ApiResponse extends RuntimeException {
+
+}

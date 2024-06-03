@@ -1,0 +1,13 @@
+package com.app.dao;
+
+import com.app.entities.Categaries;
+
+public class CategoryDaoImpl implements CategoryDao {
+
+	@Override
+	public Categaries register(Long id, String desc, String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

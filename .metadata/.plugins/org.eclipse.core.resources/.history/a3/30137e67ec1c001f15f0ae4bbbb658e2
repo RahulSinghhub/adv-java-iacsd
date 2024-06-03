@@ -1,0 +1,16 @@
+package com.blogs.controller;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class BloggerController {
+	public BloggerController() {
+		System.out.println("in ctr of"+getClass());
+	}
+	
+	@PostConstruct
+	
+
+}
